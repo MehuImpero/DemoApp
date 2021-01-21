@@ -12,6 +12,7 @@ import passDataScreen from './passValue/passDataScreen';
 import getDataScreen from './passValue/getDataScreen';
 import drawerScreen from './drawer/drawerScreen';
 import radioScreen from './reduxApp/radioScreen';
+import listNewsScreen from './news/listNewsScreen';
 
 
 
@@ -24,6 +25,7 @@ const App = createStackNavigator({
     getDataScreen: { screen: getDataScreen },
     drawerScreen: { screen: drawerScreen },
     radioScreen: { screen: radioScreen },
+    listNewsScreen: { screen: listNewsScreen },
 
   
     homeTabScreen: 
@@ -35,7 +37,7 @@ const App = createStackNavigator({
     }
   },
 }, {
-    initialRouteName: 'radioScreen',
+    initialRouteName: 'listNewsScreen',
 });
 
 
